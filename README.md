@@ -16,9 +16,10 @@ The repository should mimic the project structure of the `R` project that has be
      - [data-wrangling.R](https://github.com/4TUResearchData-Carpentries/data_carpentry_learners/blob/2025-07-01-ldev-delft/data-carpentry/scripts/data-wrangling.R)
      - [awesome-report.Rmd](https://github.com/4TUResearchData-Carpentries/data_carpentry_learners/blob/2025-07-01-ldev-delft/data-carpentry/documents/awesome-report.Rmd)
 
-> **You don't see the most recent lines of code? Refresh the page and see the new commands coming in!
 
-> *Note*: you will only see non-empty folders. You still need to create folders to follow the workshop smoothly.
+> 💡**Tip:** You don't see the most recent lines of code? Refresh the page and see the new commands coming in!
+
+> ℹ️ **Note**: you will only see non-empty folders. You still need to create folders to follow the workshop smoothly.
 
 
 
