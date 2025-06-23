@@ -1,14 +1,20 @@
 # Data Carpentry Learners' Repository
 
-Welcome to the Learner resources for Data Carpentry workshops hosted by the consortium of Leiden University, TU Delft, Erasmus University and Vrije Universiteit Amsterdam.
+Welcome! This repository contains learning materials for the Data Carpentry workshops organized by Leiden University, TU Delft, Erasmus University, and Vrije Universiteit Amsterdam.
 
-Here you will find a repository of notes, resources and type-along logs that support your learning in the Data Carpentries course.
+Here you will find notes, resources, and type-along logs to support your learning during the workshop. This GitHub repository is like a shared folder where your instructors will upload and update code and materials as the lessons progress.
+
 
 
 ## Live Notes from R lessons
-The repository should mimic the project structure of the `R` project that has been created by the instructors during the Data Carpentry.  To find needed files, you can:
-- In the files list above, go to a folder icon with the name of the project that the instructor has created. This folder is likely called `data-carpentry`.
-- Go to the file in which the instructor is now coding:
+This repository follows the same structure as the RStudio project created by your instructor during the workshop.
+
+To find the files you need to do one of the following:
+
+
+1. In the file list above, click the folder with the name of the R project (likely called `data-carpentry`).
+2. Open the file the instructor is currently working in:
+
   - **Day 1:** 
      - [intro-r.R](https://github.com/4TUResearchData-Carpentries/data_carpentry_learners/blob/2025-07-01-ldev-delft/data-carpentry/scripts/intro-r.R)
      - [starting-data.R](https://github.com/4TUResearchData-Carpentries/data_carpentry_learners/blob/2025-07-01-ldev-delft/data-carpentry/scripts/starting-data.R)
@@ -17,9 +23,9 @@ The repository should mimic the project structure of the `R` project that has be
      - [awesome-report.Rmd](https://github.com/4TUResearchData-Carpentries/data_carpentry_learners/blob/2025-07-01-ldev-delft/data-carpentry/documents/awesome-report.Rmd)
 
 
-> 💡**Tip:** You don't see the most recent lines of code? Refresh the page and see the new commands coming in!
+> 💡**Tip:** Not seeing the most recent lines of code? Try refreshing the page — new commands will appear as they're saved!
 
-> ℹ️ **Note**: you will only see non-empty folders. You still need to create folders to follow the workshop smoothly.
+> ℹ️ **Note**: GitHub only shows folders that have at least one file inside. Even if you don't see a folder in the notes, you still need to create it, as showed by the instructor.
 
 
 
