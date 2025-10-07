@@ -10,7 +10,6 @@ This repository follows the same structure as the RStudio project created by you
 
 To find the files you need to do one of the following:
 
-
 1. In the file list above, click the folder with the name of the R project (likely called `data-carpentry`).
 2. Open the file the instructor is currently working in:
 
