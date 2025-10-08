@@ -67,3 +67,9 @@ respondent_wall_type[c(3,2)]
 
 hh_members[c(TRUE, FALSE, TRUE, TRUE)]
 hh_members
+
+hh_members > 5
+
+
+
+
