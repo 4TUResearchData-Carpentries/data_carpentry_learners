@@ -94,3 +94,5 @@ is.na(rooms)
 !is.na(rooms)
 
 rooms[!is.na(rooms)]
+
+na.omit(rooms)
