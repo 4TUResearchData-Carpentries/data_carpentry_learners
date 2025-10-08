@@ -64,3 +64,5 @@ possessions
 respondent_wall_type[2]
 respondent_wall_type[1:3]
 respondent_wall_type[c(3,2)]
+
+hh_members[c(TRUE, FALSE, TRUE, TRUE)]
