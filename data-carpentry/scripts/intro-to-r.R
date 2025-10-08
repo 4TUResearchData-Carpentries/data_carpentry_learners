@@ -79,5 +79,7 @@ possessions[possessions == "laptop" | possessions == "bicycle"]
 
 possessions[possessions %in% c("laptop", "bicycle")] 
 
+possessions %in% c("laptop", "bicycle")
+
 
 
