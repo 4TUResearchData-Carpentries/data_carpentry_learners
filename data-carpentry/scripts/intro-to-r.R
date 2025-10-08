@@ -35,3 +35,5 @@ sqrt(area_acres)
 round(3.1415)
 args(round)
 round(3.1415, digits = 2)
+
+#Solution Exercise 2
