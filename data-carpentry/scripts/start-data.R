@@ -59,3 +59,6 @@ levels(levels_walls)
 class(levels_walls)
 nlevels(levels_walls)
 levels(levels_walls)[1]
+print(interviews$respondent_wall_type)
+
+
