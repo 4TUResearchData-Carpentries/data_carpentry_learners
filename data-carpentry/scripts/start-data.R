@@ -50,4 +50,4 @@ interviews_last <- interviews[ nrow(interviews) ,  ]
 print(interviews_last)
 tail(interviews)
 
-
+# Factors
