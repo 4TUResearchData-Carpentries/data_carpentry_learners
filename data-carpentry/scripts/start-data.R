@@ -54,4 +54,8 @@ tail(interviews)
 
 # Factors
 
-
+levels_walls <- factor( interviews$respondent_wall_type)
+levels(levels_walls)
+class(levels_walls)
+nlevels(levels_walls)
+levels(levels_walls)[1]
