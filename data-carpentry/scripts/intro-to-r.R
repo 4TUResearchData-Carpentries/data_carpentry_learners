@@ -10,3 +10,4 @@ install.packages("tidyverse")
 area_hectares <- 1.0
 area_hectares
 
+# arithmetic with objects
