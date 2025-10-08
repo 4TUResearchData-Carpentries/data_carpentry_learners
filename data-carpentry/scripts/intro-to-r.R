@@ -50,3 +50,11 @@ respondent_wall_type
 
 length(respondent_wall_type)
 length(hh_members)
+
+
+
+
+
+
+
+
