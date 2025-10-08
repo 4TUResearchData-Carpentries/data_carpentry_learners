@@ -61,5 +61,5 @@ possessions
 
 # Subsetting vectors 
 
-respondent_wall_type
+respondent_wall_type[2]
 
