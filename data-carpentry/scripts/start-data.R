@@ -45,4 +45,7 @@ interviews[ c('village', 'no_membrs', 'rooms')]
 
 ## Solution 1 exercise 1
 
-
+interviews_100 <- interviews[100,]
+interviews_last <- interviews[ nrow(interviews) ,  ]
+print(interviews_last)
+tail(interviews)
