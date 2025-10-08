@@ -42,3 +42,7 @@ interviews[,1]
 interviews[,-1]
 
 interviews[ c('village', 'no_membrs', 'rooms')]
+
+## Solution 1 exercise 1
+
+
