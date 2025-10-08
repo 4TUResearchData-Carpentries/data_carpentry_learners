@@ -30,6 +30,6 @@ print(r_multiplied)
 
 # Functions 
 sqrt(9)
-
+sqrt(area_acres)
 
 
