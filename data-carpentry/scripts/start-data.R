@@ -61,4 +61,10 @@ nlevels(levels_walls)
 levels(levels_walls)[1]
 print(interviews$respondent_wall_type)
 
+plot(levels_walls)
 
+levels(levels_walls)[1] <- 'Burnt bricks'
+plot(levels_walls)
+
+levels_walls <- fct_recode( levels_walls, Cement = 'cement' )
+plot(levels_walls)
