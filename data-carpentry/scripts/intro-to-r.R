@@ -59,5 +59,5 @@ possessions <- c(possessions, "mobile phone")
 possessions <- c("laptop", possessions)
 possessions
 
-
+# Subsetting vectors 
 
