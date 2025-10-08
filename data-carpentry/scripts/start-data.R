@@ -35,10 +35,10 @@ interviews[1:3, 5:7]
 # all columns from row 1 
 interviews[1,]
 
-#all rows for column 1
+# All rows for column 1
 interviews[,1]
 
-#all columns except from column 1
+# All columns except from column 1
 interviews[,-1]
 
 interviews[ c('village', 'no_membrs', 'rooms')]
