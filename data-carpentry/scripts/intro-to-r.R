@@ -54,9 +54,10 @@ length(hh_members)
 
 # Add elements
 
-
-
-
+possessions <- c("bicycle", "car", "television")
+possessions <- c(possessions, "mobile phone")
+possessions <- c("laptop", possessions)
+possessions
 
 
 
