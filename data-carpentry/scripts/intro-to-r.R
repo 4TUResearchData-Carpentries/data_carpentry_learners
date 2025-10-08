@@ -28,3 +28,5 @@ r_width <- 10
 r_multiplied <- (r_length * r_width)
 print(r_multiplied)
 
+
+
