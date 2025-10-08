@@ -43,6 +43,8 @@ interviews[,-1]
 
 interviews[ c('village', 'no_membrs', 'rooms')]
 
+interviews$respondent_wall_type
+
 ## Solution 1 exercise 1
 
 interviews_100 <- interviews[100,]
@@ -51,3 +53,5 @@ print(interviews_last)
 tail(interviews)
 
 # Factors
+
+
