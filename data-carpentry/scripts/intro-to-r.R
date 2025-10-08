@@ -39,3 +39,9 @@ round(3.1415, digits = 2)
 #Solution Exercise 2
 
 floor(1.624)
+
+
+
+
+
+
