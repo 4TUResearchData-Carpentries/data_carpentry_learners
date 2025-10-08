@@ -5,6 +5,7 @@ Welcome! This repository contains learning materials for the Data Carpentry work
 Here you will find notes, resources, and type-along logs to support your learning during the workshop. This GitHub repository is like a shared folder where your instructors will upload and update code and materials as the lessons progress.
 
 
+
 ## Live Notes from R lessons
 This repository follows the same structure as the RStudio project created by your instructor during the workshop.
 
