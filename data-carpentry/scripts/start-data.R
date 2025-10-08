@@ -70,3 +70,9 @@ levels_walls <- fct_recode( levels_walls, Cement = "cement" )
 levels(levels_walls)
 
 plot(levels_walls)
+
+# Exercise 4
+
+membr_levels <- factor(interviews$memb_assoc)
+membr_levels <-fct_recode(membr_levels,No='no',Yes='yes')
+plot(membr_levels)
