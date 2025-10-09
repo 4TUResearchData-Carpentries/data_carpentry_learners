@@ -71,6 +71,13 @@ Today's date is `r Sys.Date()`
 
 
 ```{r}
-
+interviews_plotting %>% 
+  filter(!is.na(memb_assoc)) %>% 
+  count(village, memb_assoc) %>% 
+  group_by(village) %>% 
+  mutate(percent = (n / sum(n )) * 100) %>% 
+  ungroup() %>% 
+  ggplot(aes(x = village, y = percent, fill = memb_assoc)) +
+    geom_col(position = "dodge")
 ```
 
