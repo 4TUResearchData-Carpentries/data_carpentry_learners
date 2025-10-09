@@ -51,6 +51,7 @@ A nested list:
 ## Materials and Methods
 
 ```{r}
+#| echo: false
 interviews %>% 
   filter(!is.na(memb_assoc)) %>% 
   group_by(village, memb_assoc) %>% 
