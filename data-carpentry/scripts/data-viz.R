@@ -78,7 +78,11 @@ percent_wall_type <- interviews_plotting %>%
 
 percent_wall_type %>% 
   ggplot(aes(x= village, y = percent, fill = respondent_wall_type)) +
-  geom_bar(position = "dodge")
+  geom_bar(position = "dodge", stat = "identity")
+
+percent_wall_type %>% 
+  ggplot(aes(x= village, y = percent, fill = respondent_wall_type)) +
+  geom_col(position = "dodge")
 
 
 
