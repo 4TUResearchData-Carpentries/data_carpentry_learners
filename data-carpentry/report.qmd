@@ -12,6 +12,8 @@ format: html
 
 ## Introduction
 
-This report uses the tidyverse (meta)package along with the SAFI data set,  
+This report uses the *tidyverse* (meta)***package*** along with the **SAFI** data set,  
 which has columns that include:
+
+
 
