@@ -85,3 +85,7 @@ long_data <- interviews %>%
   group_by(interview_date) %>%
   summarise( number_of_date = n() ) %>%
   arrange( interview_date )
+
+wide_date <- pivot_wider( long_data , 
+                    names_from = interview_date ,
+                    values_from = number_of_date) 
