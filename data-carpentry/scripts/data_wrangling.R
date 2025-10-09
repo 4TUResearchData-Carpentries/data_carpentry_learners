@@ -91,3 +91,4 @@ wide_date <- pivot_wider( long_data ,
                     values_from = number_of_date) 
 
 transposed_interviews <- as_tibble( t(interviews) )
+
