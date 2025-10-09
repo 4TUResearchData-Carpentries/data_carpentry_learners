@@ -104,6 +104,12 @@ percent_wall_type %>%
 
 # Customisation
 
+percent_wall_type %>% 
+  ggplot(aes(x = respondent_wall_type, y = percent, fill = village)) +
+  geom_col(position = "dodge") +
+  labs(x = "Wall type", y = "Percent  (%)", fill = "Village") +
+  theme_minimal() +
+  theme(panel.grid.major.x = element_blank())
 
 
 
