@@ -36,3 +36,7 @@ interviews3 <- interviews %>%
 exercise1 <- interviews %>%
   filter(memb_assoc=='yes') %>%
   select(affect_conflicts,liv_count,no_meals)
+
+# Mutate
+
+interviews4 <- mutate( interviews , people_per_room = no_membrs / rooms )
