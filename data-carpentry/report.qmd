@@ -5,6 +5,13 @@ date: 2025-10-09
 format: html
 ---
 
+```{r}
+library(tidyverse)
+library(here)
+interviews <- read_csv(here("data/SAFI_clean.csv"), na = "NULL")
+```
+
+
 # My title
 ## Section
 ### Subsection
