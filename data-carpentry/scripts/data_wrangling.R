@@ -18,3 +18,14 @@ select( interviews, village:respondent_wall_type )
 select( interviews, starts_with('no_') )
 
 interviews2 <- select( interviews, starts_with('no_') )
+
+## Filtering 
+
+filter( interviews , village == 'Ruaca' ) 
+
+
+# Pipe operator
+
+interviews3 <- interviews %>% 
+  select( village , interview_date ) %>%
+  filter( village == 'Ruaca')
