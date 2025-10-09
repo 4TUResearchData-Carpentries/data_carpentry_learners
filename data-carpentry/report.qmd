@@ -56,7 +56,8 @@ A nested list:
 interviews %>% 
   filter(!is.na(memb_assoc)) %>% 
   group_by(village, memb_assoc) %>% 
-  summarise(mean_no_members = mean(no_membrs))
+  summarise(mean_no_members = mean(no_membrs)) %>% 
+knitr::kable()
 ```
 
 
