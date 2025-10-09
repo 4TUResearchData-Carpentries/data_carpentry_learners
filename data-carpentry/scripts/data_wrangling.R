@@ -92,3 +92,4 @@ wide_date <- pivot_wider( long_data ,
 
 transposed_interviews <- as_tibble( t(interviews) )
 
+write_csv(interviews2, here( "data","changed_data.csv" ) )
