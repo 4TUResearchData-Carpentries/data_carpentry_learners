@@ -72,6 +72,7 @@ Today's date is `r Sys.Date()`
 ## Results
 
 ```{r}
+#| label: fig-my-first-plot
 #| echo: false
 interviews_plotting %>% 
   filter(!is.na(memb_assoc)) %>% 
@@ -83,3 +84,4 @@ interviews_plotting %>%
     geom_col(position = "dodge")
 ```
 
+@fig-my-first-plot is really cool and informative!
