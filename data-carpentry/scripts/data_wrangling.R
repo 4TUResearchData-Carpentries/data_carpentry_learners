@@ -62,3 +62,8 @@ interviews4 <- interviews %>%
 interviews4 <- interviews %>%
   group_by(village) %>%
   summarise( mean_rooms = mean(rooms) ) 
+
+# count the number of interviews
+interviews4 <- interviews %>%
+  group_by(village) %>%
+  summarise( number_interviews = n() ) 
