@@ -21,7 +21,12 @@ which has columns that include:
 - years_liv
 - respondent_wall_type
 
+These are my favourite variables:
 
+1. no_meals
+1. interview_date
+2. no_membrs
+3. village
 
 
 
