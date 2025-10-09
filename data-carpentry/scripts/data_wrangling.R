@@ -78,3 +78,9 @@ library(lubridate)
 
 month(interviews$interview_date)
 year(interviews$interview_date)
+
+# pivot_wider and pivot_longer
+
+long_data <- interviews %>%
+  group_by(interview_date) %>%
+  summarise( interview_date = n() )
