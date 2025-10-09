@@ -102,6 +102,10 @@ percent_wall_type %>%
     geom_col(position = "dodge") +
     facet_wrap(~ village)
 
+# Customisation
+
+
+
 
 
 
