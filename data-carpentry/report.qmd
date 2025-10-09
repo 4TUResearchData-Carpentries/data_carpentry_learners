@@ -11,6 +11,7 @@ format: html
 library(tidyverse)
 library(here)
 interviews <- read_csv(here("data/SAFI_clean.csv"), na = "NULL")
+interviews_plotting <- read_csv(here("data/interviews_plotting.csv"))
 ```
 
 
@@ -68,4 +69,8 @@ Start writing some text, evidenced by @tbl-random-table.
 
 Today's date is `r Sys.Date()`
 
+
+```{r}
+
+```
 
