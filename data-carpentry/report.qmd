@@ -35,7 +35,7 @@ A nested list:
 - interview_date
   + Date of interview
 - no_membrs
-  + Number of members in the household
+  * Number of members in the household
 - years_liv
 - respondent_wall_type
 
