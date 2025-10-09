@@ -84,6 +84,39 @@ percent_wall_type %>%
   ggplot(aes(x= village, y = percent, fill = respondent_wall_type)) +
   geom_col(position = "dodge")
 
+## Exercise 3
+
+interviews_plotting %>% 
+  filter(!is.na(memb_assoc)) %>% 
+  count(village, memb_assoc) %>% 
+  group_by(village) %>% 
+  mutate(percent = (n / sum(n )) * 100) %>% 
+  ungroup() %>% 
+  ggplot(aes(x = village, y = percent, fill = memb_assoc)) +
+    geom_col(position = "dodge")
+
+
+# Faceting
+percent_wall_type %>% 
+  ggplot(aes(x = respondent_wall_type, y = percent, fill = village)) +
+    geom_col(position = "dodge") +
+    facet_wrap(~ village)
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
 
 
 
