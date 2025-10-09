@@ -1,0 +1,16 @@
+---
+title: "Untitled"
+author: Me
+date: 2025-10-09
+format: html
+---
+
+# My title
+## Section
+### Subsection
+#### Subsubsection
+
+## Introduction
+
+This report uses the tidyverse (meta)package along with the SAFI data set, which has columns that include:
+
