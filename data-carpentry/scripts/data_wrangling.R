@@ -74,4 +74,7 @@ exercise3 <- interviews %>%
   group_by(no_meals) %>%
   summarise(total_meals = n() )
 
+library(lubridate)
 
+month(interviews$interview_date)
+year(interviews$interview_date)
