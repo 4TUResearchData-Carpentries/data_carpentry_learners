@@ -83,4 +83,5 @@ year(interviews$interview_date)
 
 long_data <- interviews %>%
   group_by(interview_date) %>%
-  summarise( interview_date = n() )
+  summarise( interview_date = n() ) %>%
+  arrange( interview_date )
