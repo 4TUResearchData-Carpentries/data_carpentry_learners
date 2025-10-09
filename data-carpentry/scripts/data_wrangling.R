@@ -40,4 +40,10 @@ exercise1 <- interviews %>%
 # Mutate
 
 interviews4 <- mutate( interviews , people_per_room = no_membrs / rooms )
-test
+
+# Exercise 2
+
+exercise2 <- interviews %>%
+  mutate(total_meals = no_meals * no_membrs) %>%
+  select( village, total_meals ) %>%
+  filter( total_meals > 20 )
