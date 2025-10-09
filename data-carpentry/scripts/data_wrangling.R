@@ -73,3 +73,5 @@ interviews4 <- interviews %>%
 exercise3 <- interviews %>%
   group_by(no_meals) %>%
   summarise(total_meals = n() )
+
+
