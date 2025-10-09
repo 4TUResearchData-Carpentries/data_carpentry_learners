@@ -54,5 +54,11 @@ exercise2 <- interviews %>%
 # sd()
 # n()
 
+## summary statistics
 interviews4 <- interviews %>%
   summarise( mean_room = mean(rooms) )
+
+# group by
+interviews4 <- interviews %>%
+  group_by(village) %>%
+  summarise( mean_rooms = mean(rooms) ) 
