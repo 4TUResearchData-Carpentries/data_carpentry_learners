@@ -67,6 +67,14 @@ interviews_plotting %>%
   ggplot(aes(x = respondent_wall_type)) +
     geom_bar(aes(fill = village), position = "dodge")
 
+# calculate percentages
+percent_wall_type <- interviews_plotting %>%
+  filter(respondent_wall_type != "cement") %>% 
+  count(village, respondent_wall_type) %>% 
+  group_by(village) %>% 
+  mutate(percent = (n / sum(n)) * 100) %>% 
+  ungroup()
+
 
 
 
