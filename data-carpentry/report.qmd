@@ -28,6 +28,18 @@ These are my favourite variables:
 2. no_membrs
 3. village
 
+A nested list:
+
+- village
+  + Name of village
+- interview_date
+  + Date of interview
+- no_membrs
+  + Number of members in the household
+- years_liv
+- respondent_wall_type
+
+
 
 
 
