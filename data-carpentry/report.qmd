@@ -16,6 +16,7 @@ This report uses the *tidyverse* (meta)***package*** along with the **SAFI** dat
 which has columns that include:
 
 -village
+
 - interview_date
 - no_membrs
 - years_liv
