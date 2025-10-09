@@ -29,3 +29,6 @@ filter( interviews , village == 'Ruaca' )
 interviews3 <- interviews %>% 
   select( village , interview_date ) %>%
   filter( village == 'Ruaca')
+
+
+## Exercise §1
