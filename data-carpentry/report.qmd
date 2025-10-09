@@ -51,6 +51,8 @@ A nested list:
 ## Materials and Methods
 
 ```{r}
+#| label: tbl-random-table
+#| tbl-cap: "Some random table with some random numbers."
 #| echo: false
 #| message: false
 interviews %>% 
