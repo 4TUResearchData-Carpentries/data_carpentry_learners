@@ -40,7 +40,37 @@ interviews_plotting %>%
 
 interviews_plotting %>%
   ggplot(aes(x = respondent_wall_type, y = rooms)) +
-    geom_boxplot()
+    geom_boxplot() +
+    geom_jitter(
+      alpha = 0.5,
+      color = "skyblue",
+      height = 0.2,
+      width = 0.2
+    )
+
+## Exercise 2
+
+interviews_plotting %>%
+  ggplot(aes(x = respondent_wall_type, y = rooms)) +
+  geom_violin()
+
+interviews_plotting %>%
+  ggplot(aes(x = respondent_wall_type, y = rooms)) +
+  geom_violin(aes(fill = respondent_wall_type)) +
+  geom_boxplot(
+    width = 0.1
+  )
+
+# Bar plots
+
+interviews_plotting %>%
+  ggplot(aes(x = respondent_wall_type)) +
+    geom_bar(aes(fill = village), position = "dodge")
+
+
+
+
+
 
 
 
