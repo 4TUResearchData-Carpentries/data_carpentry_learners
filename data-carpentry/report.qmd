@@ -41,6 +41,12 @@ A nested list:
 
 ## Materials and Methods
 
+```{r}
+interviews %>% 
+  filter(!is.na(memb_assoc)) %>% 
+  group_by(village, memb_assoc) %>% 
+  summarise(mean_no_members = mean(no_membrs))
+```
 
 
 
