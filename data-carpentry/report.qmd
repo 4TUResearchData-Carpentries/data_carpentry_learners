@@ -15,8 +15,7 @@ format: html
 This report uses the *tidyverse* (meta)***package*** along with the **SAFI** data set,  
 which has columns that include:
 
--village
-
+- village
 - interview_date
 - no_membrs
 - years_liv
