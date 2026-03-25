@@ -2,8 +2,9 @@
 #read_csv()
 #read_table()
 library(tidyverse)
-
+# in-built
 read.csv("data/SAFI_clean.csv")
+# from tidyverse
 read_csv("data/SAFI_clean.csv")
 
 library(here)
@@ -13,4 +14,5 @@ interviews <- read_csv(
   here("data", "SAFI_clean.csv"), 
   na = "NULL")
 interviews
+
 
