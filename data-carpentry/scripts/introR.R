@@ -104,7 +104,9 @@ mean(rooms_no_na)
 rooms <- c(1,2,1,NA,3,1,3,2,8,NA,1)
 
 # rooms without na
-
+rooms_no_na <- na.omit(rooms)
+rooms_no_na
 # median
-
+median(rooms_no_na)
 # larger than 2
+length(rooms_no_na[rooms_no_na > 2])
