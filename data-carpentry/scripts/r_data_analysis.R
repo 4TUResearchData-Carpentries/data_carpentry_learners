@@ -131,6 +131,9 @@ plot(memb_assoc)
 
 # rename the levels of the factor to have the first letter 
 # in uppercase
+memb_assoc <- fct_recode(memb_assoc, No = "no",
+                         Undetermined = "undetermined", Yes = "yes")
 # Can you create the barplot with undetermined 
 # as the last value?
-
+memb_assoc <- factor(memb_assoc, levels = c("No", "Yes", "Undetermined"))
+plot(memb_assoc)
