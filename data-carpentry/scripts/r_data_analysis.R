@@ -84,3 +84,4 @@ interviews_middle
 interviews_middle <- interviews[round(nrow(interviews)/2, 0), ]
 interviews_middle
 
+
