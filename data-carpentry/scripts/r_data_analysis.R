@@ -105,3 +105,13 @@ ordered_cat <- factor(c("low", "high", "low", "medium", "high"),
                       levels = c("low", "medium", "high"), 
                       ordered = TRUE)
 ordered_cat
+
+as.character(respondent_floor_type)
+year_fct <- factor(c(1990, 1983, 1977, 1998, 2001))
+year_fct
+as.numeric(year_fct)
+# to get the value instead of the index value
+as.numeric(as.character((year_fct)))
+# the recommended method is
+as.numeric(levels(year_fct))[year_fct] 
+
