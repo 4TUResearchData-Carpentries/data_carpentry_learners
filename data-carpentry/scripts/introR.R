@@ -20,3 +20,5 @@ sqrt(9)
 sqrt(area_hectares)
 
 area_acres <- area_hectares * 2.47
+
+round(3.1415)
