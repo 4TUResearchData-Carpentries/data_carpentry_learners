@@ -52,4 +52,9 @@ interviews[3, ]
 # can you replicate the head function?
 # (get the first 6 rows of the data)
 
+interviews[1:6, ]
 
+# what about excluding 
+interviews[, -1]
+
+interviews[-c(7:131), ]
