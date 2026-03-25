@@ -49,3 +49,7 @@ interviews[1:3, 7]
 # single row
 interviews[3, ]
 
+# can you replicate the head function?
+# (get the first 6 rows of the data)
+
+
