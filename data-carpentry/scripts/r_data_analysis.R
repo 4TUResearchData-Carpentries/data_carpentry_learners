@@ -28,3 +28,6 @@ class(interviews)
 
 # look at the structure
 dim(interviews)
+nrow(interviews)
+ncol(interviews)
+
