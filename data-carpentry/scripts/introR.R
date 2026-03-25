@@ -71,3 +71,11 @@ hh_members[hh_members < 4 | hh_members > 7]
 hh_members[hh_members >= 4 & hh_members <= 7]
 
 possessions[possessions == "laptop" | possessions == "bicycle" | possessions == "house"]
+
+possessions[possessions %in% c("laptop", "bicycle")]
+possessions %in% c("laptop", "bicycle")
+
+search_for <- c("laptop", "bicycle")
+possessions[possessions %in% search_for]
+
+# Missing data
