@@ -96,4 +96,8 @@ respondent_floor_type <- factor(
 respondent_floor_type
 respondent_floor_type <- fct_recode(respondent_floor_type, 
                                     brick = "cement")
+# ordered factors
+respondent_floor_type <- factor(respondent_floor_type, 
+                                        ordered = TRUE)
+respondent_floor_type
 
