@@ -116,7 +116,7 @@ as.numeric(levels(year_fct))[year_fct]
 
 # Create a vector from the df column "memb_assoc" 
 memb_assoc <- interviews$memb_assoc
-# covert into a factor
+# convert into a factor
 memb_assoc <- as.factor(memb_assoc)
 # check it out
 memb_assoc
@@ -128,3 +128,9 @@ memb_assoc[is.na(memb_assoc)] <- "undetermined"
 memb_assoc <- as.factor(memb_assoc)
 memb_assoc
 plot(memb_assoc)
+
+# rename the levels of the factor to have the first letter 
+# in uppercase
+# Can you create the barplot with undetermined 
+# as the last value?
+
