@@ -38,3 +38,5 @@ length(respondent_wall_type)
 
 typeof(hh_members)
 typeof(respondent_wall_type)
+
+possessions <- c("bicycle", "car", "television")
