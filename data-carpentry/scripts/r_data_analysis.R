@@ -23,4 +23,5 @@ interviews
 # stats::filter()
 
 head(interviews)
+tail(interviews)
 
