@@ -9,5 +9,8 @@ read_csv("data/SAFI_clean.csv")
 library(here)
 interviews <- read_csv(here("data", "SAFI_clean.csv"))
 
-
+interviews <- read_csv(
+  here("data", "SAFI_clean.csv"), 
+  na = "NULL")
+interviews
 
