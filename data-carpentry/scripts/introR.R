@@ -40,3 +40,5 @@ typeof(hh_members)
 typeof(respondent_wall_type)
 
 possessions <- c("bicycle", "car", "television")
+possessions <- c(possessions, "mobile phone")
+possessions
