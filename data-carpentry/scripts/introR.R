@@ -9,3 +9,9 @@ install.packages("tidyverse")
 
 area_hectares <- 1.0
 area_hectares
+
+r_length <- 5
+r_width <-  4
+r_area <- r_length * r_width
+r_area
+
