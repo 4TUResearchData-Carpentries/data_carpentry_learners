@@ -65,4 +65,6 @@ respondent_wall_type[c(3,2)]
 hh_members[c(TRUE, FALSE, TRUE, TRUE)]
 
 hh_members > 5
-hh
+hh_members[hh_members >5]
+
+hh_members[hh_members < 4 | hh_members > 7]
