@@ -57,3 +57,12 @@ char_logical <- c("a","b","c",TRUE)
 combined_logical <- c(num_logical, char_logical)
 combined_logical
 
+
+respondent_wall_type[2]
+respondent_wall_type[1:3]
+respondent_wall_type[c(3,2)]
+
+hh_members[c(TRUE, FALSE, TRUE, TRUE)]
+
+hh_members > 5
+hh
