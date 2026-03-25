@@ -89,5 +89,10 @@ respondent_floor_type <- factor(c("earth", "cement",
                                   "cement", "earth"))
 respondent_floor_type
 levels(respondent_floor_type)
-
-
+nlevels(respondent_floor_type)
+respondent_floor_type <- factor(
+  respondent_floor_type, 
+  levels = c("earth", "cement"))
+respondent_floor_type
+respondent_floor_type <- fct_recode(respondent_floor_type, 
+                                    brick = "cement")
