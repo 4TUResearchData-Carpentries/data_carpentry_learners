@@ -22,4 +22,5 @@ interviews
 # this is how to explicitly use the stats version (inbuilt)
 # stats::filter()
 
+head(interviews)
 
