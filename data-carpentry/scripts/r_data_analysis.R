@@ -120,3 +120,11 @@ memb_assoc <- interviews$memb_assoc
 memb_assoc <- as.factor(memb_assoc)
 # check it out
 memb_assoc
+
+plot(memb_assoc)
+
+memb_assoc <- interviews$memb_assoc
+memb_assoc[is.na(memb_assoc)] <- "undetermined"
+memb_assoc <- as.factor(memb_assoc)
+memb_assoc
+plot(memb_assoc)
