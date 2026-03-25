@@ -42,3 +42,10 @@ interviews[1,1]
 interviews[1, 6]
 interviews[[1]]
 interviews[1]
+interviews[3, 7]
+
+# range of values
+interviews[1:3, 7]
+# single row
+interviews[3, ]
+
