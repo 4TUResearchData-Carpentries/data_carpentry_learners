@@ -16,4 +16,7 @@ r_width <-  4
 r_area <- r_length * r_width
 r_area
 
+sqrt(9)
+sqrt(area_hectares)
 
+area_acres <- area_hectares * 2.47
