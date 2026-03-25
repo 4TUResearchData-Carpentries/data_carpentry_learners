@@ -79,3 +79,8 @@ search_for <- c("laptop", "bicycle")
 possessions[possessions %in% search_for]
 
 # Missing data
+rooms <- c(2,1,1,NA,7)
+rooms
+
+mean(rooms)
+mean(rooms, na.rm = TRUE)
