@@ -96,4 +96,5 @@ rooms[!is.na(rooms)]
 
 na.omit(rooms)
 rooms_no_na <- na.omit(rooms)
-rooms_
+rooms_no_na
+mean(rooms_no_na)
