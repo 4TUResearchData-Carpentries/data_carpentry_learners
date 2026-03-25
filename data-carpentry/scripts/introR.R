@@ -24,4 +24,5 @@ area_acres <- area_hectares * 2.47
 round(3.1415)
 as.integer(1.624) #alternative: returns full number
 
+#Solution Exercise 2
 floor(1.624) # rounds down
