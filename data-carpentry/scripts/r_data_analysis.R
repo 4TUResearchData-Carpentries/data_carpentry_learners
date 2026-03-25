@@ -55,6 +55,13 @@ interviews[3, ]
 interviews[1:6, ]
 
 # what about excluding 
-interviews[, -1]
+interviews[ , -1]
 
 interviews[-c(7:131), ]
+
+# access by name
+interviews["village"]
+interviews[ ,"village"]
+interviews[["village"]]
+
+
