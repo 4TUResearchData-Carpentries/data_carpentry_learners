@@ -36,3 +36,9 @@ names(interviews)
 # summarise our data
 str(interviews)
 summary(interviews)
+glimpse(interviews)
+
+interviews[1,1]
+interviews[1, 6]
+interviews[[1]]
+interviews[1]
