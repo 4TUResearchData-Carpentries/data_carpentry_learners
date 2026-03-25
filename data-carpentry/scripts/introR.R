@@ -22,3 +22,6 @@ sqrt(area_hectares)
 area_acres <- area_hectares * 2.47
 
 round(3.1415)
+as.integer(1.624) #alternative: returns full number
+
+floor(1.624) # rounds down
