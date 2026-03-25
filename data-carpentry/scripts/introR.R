@@ -98,3 +98,13 @@ na.omit(rooms)
 rooms_no_na <- na.omit(rooms)
 rooms_no_na
 mean(rooms_no_na)
+
+
+#Exercise 5
+rooms <- c(1,2,1,NA,3,1,3,2,8,NA,1)
+
+# rooms without na
+
+# median
+
+# larger than 2
