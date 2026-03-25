@@ -31,3 +31,8 @@ dim(interviews)
 nrow(interviews)
 ncol(interviews)
 
+names(interviews)
+
+# summarise our data
+str(interviews)
+summary(interviews)
