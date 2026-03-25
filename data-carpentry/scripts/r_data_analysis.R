@@ -84,4 +84,10 @@ interviews_middle
 interviews_middle <- interviews[round(nrow(interviews)/2, 0), ]
 interviews_middle
 
+# Example of using factors
+respondent_floor_type <- factor(c("earth", "cement", 
+                                  "cement", "earth"))
+respondent_floor_type
+levels(respondent_floor_type)
+
 
