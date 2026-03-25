@@ -67,9 +67,11 @@ interviews$village
 
 # Create a dataframe (tibble) containing only the data 
 # in row 100 of the dataset
+# Use the interviews dataframe again ->
 # use nrow to pull out the last row of the df (dataframe)
 # compare to last row with tail
 # Pull out the last row with nrow directly 
 # Use number of rows in the dataset to extract the middle row
 # and store in an object, interviews_middle
+
 
