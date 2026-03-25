@@ -105,7 +105,6 @@ ordered_cat <- factor(c("low", "high", "low", "medium", "high"),
                       levels = c("low", "medium", "high"), 
                       ordered = TRUE)
 ordered_cat
-
 as.character(respondent_floor_type)
 year_fct <- factor(c(1990, 1983, 1977, 1998, 2001))
 year_fct
@@ -115,3 +114,9 @@ as.numeric(as.character((year_fct)))
 # the recommended method is
 as.numeric(levels(year_fct))[year_fct] 
 
+# Create a vector from the df column "memb_assoc" 
+memb_assoc <- interviews$memb_assoc
+# covert into a factor
+memb_assoc <- as.factor(memb_assoc)
+# check it out
+memb_assoc
