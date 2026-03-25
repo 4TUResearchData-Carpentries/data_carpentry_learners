@@ -26,3 +26,12 @@ as.integer(1.624) #alternative: returns full number
 
 #Solution Exercise 2
 floor(1.624) # rounds down
+
+hh_members <- c(3,7,10,6)
+hh_members
+
+respondent_wall_type <- c("muddaub", "burntbricks", "sunbricks")
+respondent_wall_type
+
+length(hh_members)
+length(respondent_wall_type)
