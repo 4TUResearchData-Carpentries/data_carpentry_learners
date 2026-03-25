@@ -35,3 +35,6 @@ respondent_wall_type
 
 length(hh_members)
 length(respondent_wall_type)
+
+typeof(hh_members)
+typeof(respondent_wall_type)
