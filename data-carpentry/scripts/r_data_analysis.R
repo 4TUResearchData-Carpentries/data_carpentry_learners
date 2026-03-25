@@ -101,3 +101,7 @@ respondent_floor_type <- factor(respondent_floor_type,
                                         ordered = TRUE)
 respondent_floor_type
 
+ordered_cat <- factor(c("low", "high", "low", "medium", "high"), 
+                      levels = c("low", "medium", "high"), 
+                      ordered = TRUE)
+ordered_cat
