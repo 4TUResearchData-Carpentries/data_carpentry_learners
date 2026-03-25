@@ -24,4 +24,7 @@ interviews
 
 head(interviews)
 tail(interviews)
+class(interviews)
 
+# look at the structure
+dim(interviews)
