@@ -50,3 +50,9 @@ num_char <- c(1,2,3,"a")
 num_logical <- c(1,2L, 3, TRUE)
 char_logical <- c("a", "b", "c", TRUE)
 tricky <- c(1,2,3,"4")
+
+
+num_logical <- c(1,2,3,TRUE)
+char_logical <- c("a","b","c",TRUE)
+combined_logical <- c(num_logical, char_logical)
+combined_logical
