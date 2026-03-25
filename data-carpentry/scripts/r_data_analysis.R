@@ -67,11 +67,20 @@ interviews$village
 
 # Create a dataframe (tibble) containing only the data 
 # in row 100 of the dataset
+interview_100 <- interviews[100,]
+interview_100
+
 # Use the interviews dataframe again ->
 # use nrow to pull out the last row of the df (dataframe)
 # compare to last row with tail
 # Pull out the last row with nrow directly 
+last_row <- interviews[nrow(interviews), ]
+tail(interviews)
+
 # Use number of rows in the dataset to extract the middle row
 # and store in an object, interviews_middle
-
+interviews_middle <- interviews[median(interviews$key_ID), ]
+interviews_middle
+interviews_middle <- interviews[round(nrow(interviews)/2, 0), ]
+interviews_middle
 
