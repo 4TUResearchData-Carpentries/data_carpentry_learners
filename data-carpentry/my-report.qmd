@@ -49,6 +49,7 @@ and on
 library(tidyverse)
 library(here)
 interviews <- read_csv(here("data/SAFI_clean.csv"), na = "NULL")
+interviews_plotting <- read_csv(here("data/interviews_plotting.csv"))
 ```
 
 ## Results
