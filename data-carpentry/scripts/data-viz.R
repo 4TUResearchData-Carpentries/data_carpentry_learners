@@ -84,7 +84,7 @@ percent_memb_assoc <- interviews_plotting %>%
 percent_memb_assoc %>%
   ggplot(aes(x = village, y = percent, fill = memb_assoc)) +
   geom_bar(stat = "identity", position = "dodge") +
-  geom_text(aes(label = round(percent)), hjust = 1)
+  geom_text(aes(label = round(percent)), position = "dodge")
 
 # facetting plots
 percent_wall_type %>% 
