@@ -3,6 +3,9 @@ title: "My Report"
 author: Emmet Brickowski
 date: 2026-03-26
 format: html
+knitr: 
+  opts_chunk: 
+    echo: false
 ---
 
 # My report
@@ -58,3 +61,4 @@ interviews %>%
   summarise(mean_no_membrs = mean(no_membrs))
 ```
 
+This report was written on `r Sys.Date()`.
