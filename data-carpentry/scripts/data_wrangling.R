@@ -55,3 +55,12 @@ nr_interviews <- interviews %>%
 wide_data <- pivot_wider( nr_interviews , 
                           names_from = interview_date, 
                           values_from = number_interviews )
+
+long_data <- pivot_longer( wide_data , 
+      cols = `2016-11-16`:`2017-06-04`,
+      names_to = 'interview_date' ,
+      values_to = 'number_interviews' )
+
+write_csv(long_data,here('data','long_data.csv'))
+
+          
