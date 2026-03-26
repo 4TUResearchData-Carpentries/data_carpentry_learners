@@ -55,6 +55,26 @@ interviews_plotting %>%
   geom_boxplot(width = 0.1)
   
 # Barplots
+interviews_plotting %>% 
+  ggplot(aes(x = respondent_wall_type)) +
+    geom_bar(aes(fill = village), position = "dodge")
+
+# compare proportions of each type in each village
+
+percent_wall_type <- interviews_plotting %>% 
+  filter(respondent_wall_type != "cement") %>% 
+  count(village, respondent_wall_type) %>% 
+  group_by(village) %>% 
+  mutate(percent = (n / sum(n)) * 100) %>% 
+  ungroup()
+
+percent_wall_type %>% 
+  ggplot(aes(x = village, y = percent, fill = respondent_wall_type)) +
+  #geom_bar(stat = "identity")
+  geom_col()
+
+
+
 
   
   
