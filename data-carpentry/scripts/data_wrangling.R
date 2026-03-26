@@ -63,4 +63,6 @@ long_data <- pivot_longer( wide_data ,
 
 write_csv(long_data,here('data','long_data.csv'))
 
+
+
           
