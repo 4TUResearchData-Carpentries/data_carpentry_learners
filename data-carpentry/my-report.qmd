@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "My Report"
 author: Emmet Brickowski
 date: 2026-03-26
 format: html
@@ -9,3 +9,12 @@ format: html
 ## Introduction
 ### sub-intro
 #### subsub-intro
+
+## Introduction
+
+This report uses the tidyverse (meta)package along with the SAFI dataset which has columns.
+
+
+
+
+
