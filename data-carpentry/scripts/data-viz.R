@@ -91,9 +91,10 @@ percent_wall_type %>%
   ggplot(aes(x = respondent_wall_type, y = percent)) +
   geom_col() +
   facet_wrap(~ village, ncol = 1) +
-  theme_bw()
+  theme_bw() +
+  labs(x = "Respondent wall type", y = "Percent (%)")
 
-ggsave(filename = "my-first-plot.png")
+ggsave(filename = "fig_output/my-first-plot.png", width = 120, height = 180, units = "mm")
   
   
 
