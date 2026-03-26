@@ -74,6 +74,18 @@ percent_wall_type %>%
   geom_col()
 
 # Exercise
+percent_memb_assoc <- interviews_plotting %>%
+  filter(!is.na(memb_assoc)) %>%
+  count(village, memb_assoc) %>%
+  group_by(village) %>%
+  mutate(percent = (n / sum(n)) * 100) %>%
+  ungroup()
+
+percent_memb_assoc %>%
+  ggplot(aes(x = village, y = percent, fill = memb_assoc)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  geom_text(aes(label = round(percent)), hjust = 1)
+
 
 
 
