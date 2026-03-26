@@ -60,7 +60,8 @@ interviews_plotting <- read_csv(here("data/interviews_plotting.csv"))
 interviews %>% 
   filter(!is.na(memb_assoc)) %>% 
   group_by(village, memb_assoc) %>% 
-  summarise(mean_no_membrs = mean(no_membrs))
+  summarise(mean_no_membrs = mean(no_membrs)) %>% 
+  knitr::kable()
 ```
 
 This report was written on `r Sys.Date()`.
