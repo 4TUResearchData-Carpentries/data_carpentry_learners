@@ -39,3 +39,4 @@ interviews7_1<-interviews %>% group_by(village) %>%
 ##Exercise 3
 exercise3<- interviews %>% group_by(no_meals) %>% 
   summarise(household_per_no_meals=n())
+library(lubridate)
