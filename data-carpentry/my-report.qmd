@@ -15,6 +15,8 @@ format: html
 This ***report*** uses the **tidyverse**
 (meta)package along with the *SAFI* dataset which has columns.
 
+This is another paragraph, where I'll put my list:
+
 
 
 
