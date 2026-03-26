@@ -67,6 +67,7 @@ This report was written on `r Sys.Date()`.
 
 ```{r}
 #| label: fig-my-first-plot
+#| fig-cap: "This is a cool plot"
 interviews_plotting %>% 
   ggplot(aes(x = respondent_wall_type)) +
     geom_bar(aes(fill = village), position = "dodge")
