@@ -26,3 +26,9 @@ interviews_plotting %>%
   )
 
 # Exercise
+interviews_plotting %>%
+  ggplot(aes(x = village, y = rooms, colour = respondent_wall_type)) +
+  geom_point() +
+  theme_classic() +
+  scale_colour_viridis_d() # add colourblind-friendly palette
+
