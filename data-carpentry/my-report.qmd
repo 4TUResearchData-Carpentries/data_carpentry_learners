@@ -18,7 +18,9 @@ This ***report*** uses the **tidyverse**
 This is another paragraph, where I'll put my list:
 
 - village
+  + Name of the village
 - interview_date
+  + Date of the interview
 - no_membrs
 - years_liv
 - respondent_wall_type
@@ -27,7 +29,7 @@ This is another paragraph, where I'll put my list:
 1. village
 2. no_membrs
 3. rooms
-2. years_liv
+4. years_liv
 
 
 
