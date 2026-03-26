@@ -20,7 +20,7 @@ This is another paragraph, where I'll put my list:
 - village
   + Name of the village
 - interview_date
-  + Date of the interview
+  * Date of the interview
 - no_membrs
 - years_liv
 - respondent_wall_type
