@@ -92,6 +92,8 @@ percent_wall_type %>%
   geom_col() +
   facet_wrap(~ village, ncol = 1) +
   theme_bw()
+
+
   
   
 
