@@ -93,7 +93,7 @@ percent_wall_type %>%
   facet_wrap(~ village, ncol = 1) +
   theme_bw()
 
-
+ggsave(filename = "my-first-plot.png")
   
   
 
