@@ -27,3 +27,4 @@ exercise1<-interviews %>% filter(memb_assoc=='yes') %>%
   select(affect_conflicts, liv_count, no_meals)
 ##Adding new column based on a calculation - number of people per room
 interviews6<-interviews %>% mutate(people_per_room=no_membrs/rooms)
+interviews6_1<-interviews %>% mutate(total_meals=no_meals*no_membrs)
