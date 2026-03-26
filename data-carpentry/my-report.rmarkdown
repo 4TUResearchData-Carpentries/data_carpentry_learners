@@ -58,3 +58,4 @@ interviews %>%
   summarise(mean_no_membrs = mean(no_membrs))
 ```
 
+
