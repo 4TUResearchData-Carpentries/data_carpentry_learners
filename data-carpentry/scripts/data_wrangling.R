@@ -36,3 +36,6 @@ interviews7<- interviews %>% summarise(avg_rooms=mean(rooms))
 ##calculate the average number of rooms PER VILLAGE
 interviews7_1<-interviews %>% group_by(village) %>%
   summarise(avg_rooms=mean(rooms))
+##Exercise 3
+exercise3<- interviews %>% group_by(no_meals) %>% 
+  summarise(household_per_no_meals=n())
