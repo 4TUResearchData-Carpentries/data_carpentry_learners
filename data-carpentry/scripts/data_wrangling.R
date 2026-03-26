@@ -45,4 +45,5 @@ interviews9<-interviews %>% filter(month(interview_date)==5) %>%
   select (village, interview_date)
 #Exercise4
 exercise4<-interviews %>% mutate(month_interviewed=month(interview_date),year_interviewed=year(interview_date)) %>% 
-  group_by(month_interviewed, year_interviewed) %>% summarise(largest_hh=max(no_membrs))
+  group_by(month_interviewed, year_interviewed) %>% 
+  summarise(largest_hh=max(no_membrs))
