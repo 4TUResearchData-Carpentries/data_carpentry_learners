@@ -48,8 +48,14 @@ interviews_plotting %>%
   ggplot(aes(x = respondent_wall_type, y = rooms)) +
   geom_violin() +
   geom_jitter(alpha = 0.5, color = "tomato")
+
+interviews_plotting %>%
+  ggplot(aes(x = respondent_wall_type, y = rooms)) +
+  geom_violin(aes(fill = respondent_wall_type), show.legend = FALSE) +
+  geom_boxplot(width = 0.1)
   
-  
+# Barplots
+
   
   
   
