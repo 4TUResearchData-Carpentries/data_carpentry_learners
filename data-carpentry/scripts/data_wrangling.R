@@ -40,3 +40,6 @@ interviews7_1<-interviews %>% group_by(village) %>%
 exercise3<- interviews %>% group_by(no_meals) %>% 
   summarise(household_per_no_meals=n())
 library(lubridate)
+##Select villages that were interviewed in MAY
+interviews9<-interviews %>% filter(month(interview_date)==5) %>% 
+  select (village, interview_date)
