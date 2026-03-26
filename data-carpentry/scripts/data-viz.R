@@ -5,4 +5,24 @@ interviews_plotting <- read_csv(here("data/interviews_plotting.csv"))
 
 # creating our first plot
 interviews_plotting %>% 
-  ggplot()
+  ggplot(aes(y = number_items, x = no_membrs)) +
+    geom_point(alpha = 0.2)
+
+interviews_plotting %>% 
+  ggplot(aes(x = no_membrs, y = number_items)) +
+    geom_jitter(
+      alpha = 0.5,
+      width = 0.2,
+      height = 0.2,
+      colour = "chocolate" # add single colour
+    )
+
+interviews_plotting %>% 
+  ggplot(aes(x = no_membrs, y = number_items, colour = village)) +
+  geom_jitter(
+    alpha = 0.5,
+    width = 0.2,
+    height = 0.2
+  )
+
+# Exercise
