@@ -48,5 +48,7 @@ exercise4<-interviews %>% mutate(month_interviewed=month(interview_date),year_in
   group_by(month_interviewed, year_interviewed) %>% 
   summarise(largest_hh=max(no_membrs))
 
-
+nr_interviews <- interviews %>%
+  group_by(interview_date) %>%
+  summarise(number_interviews = n())
 
