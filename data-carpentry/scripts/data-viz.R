@@ -42,7 +42,12 @@ interviews_plotting %>%
       colour = "tomato",
       alpha = 0.5
     )
-  
+
+# Exercise
+interviews_plotting %>%
+  ggplot(aes(x = respondent_wall_type, y = rooms)) +
+  geom_violin() +
+  geom_jitter(alpha = 0.5, color = "tomato")
   
   
   
