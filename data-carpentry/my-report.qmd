@@ -74,3 +74,5 @@ interviews_plotting %>%
 ```
 
 Plots and tables in Quarto should have a `label` prefixed with `#| label: fig-` and `label: tbl-`, respectively.
+
+See a cool figure I made: @fig-my-first-plot
