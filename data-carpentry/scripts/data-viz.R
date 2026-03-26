@@ -73,6 +73,9 @@ percent_wall_type %>%
   #geom_bar(stat = "identity")
   geom_col()
 
+# Exercise
+
+
 
 
 
