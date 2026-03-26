@@ -17,12 +17,19 @@ This ***report*** uses the **tidyverse**
 
 This is another paragraph, where I'll put my list:
 
--village
+- village
 - interview_date
 - no_membrs
 - years_liv
 - respondent_wall_type
 - rooms
+
+1. village
+2. no_membrs
+3. rooms
+4. years_liv
+
+
 
 
 
