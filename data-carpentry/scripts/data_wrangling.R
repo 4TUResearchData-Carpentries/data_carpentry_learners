@@ -16,4 +16,4 @@ interviews4<-filter(interviews, village=="Ruaca")
 ##test for multiple criteria
 interviews4_1<-filter(interviews,village=="Ruaca" & no_membrs>5)
 ##selection and filtering at the same time
-##fiter observations for Ruaca village but to return in result columns from village to rooms
+##filter observations for Ruaca village but to return in result columns from village to rooms
