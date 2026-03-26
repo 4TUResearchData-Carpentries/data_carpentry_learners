@@ -32,3 +32,19 @@ interviews_plotting %>%
   theme_classic() +
   scale_colour_viridis_d() # add colourblind-friendly palette
 
+# Box plots
+interviews_plotting %>% 
+  ggplot(aes(x = respondent_wall_type, y = rooms)) +
+    geom_boxplot() +
+    geom_jitter(
+      width = 0.2,
+      height = 0.2,
+      colour = "tomato",
+      alpha = 0.5
+    )
+  
+  
+  
+  
+  
+  
