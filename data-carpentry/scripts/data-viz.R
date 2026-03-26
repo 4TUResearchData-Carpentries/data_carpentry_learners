@@ -92,7 +92,8 @@ percent_wall_type %>%
   geom_col() +
   facet_wrap(~ village, ncol = 1) +
   theme_bw() +
-  labs(x = "Respondent wall type", y = "Percent (%)")
+  labs(x = "Respondent wall type", y = "Percent (%)") +
+  theme(axis.title = element_text(size = 42))
 
 ggsave(filename = "fig_output/my-first-plot.png", width = 120, height = 180, units = "mm")
   
