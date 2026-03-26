@@ -63,3 +63,10 @@ interviews %>%
 ```
 
 This report was written on `r Sys.Date()`.
+
+```{r}
+interviews_plotting %>% 
+  ggplot(aes(x = respondent_wall_type)) +
+    geom_bar(aes(fill = village), position = "dodge")
+```
+
