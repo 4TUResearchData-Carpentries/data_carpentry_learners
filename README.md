@@ -6,4 +6,4 @@ Here you will find a repository of notes, resources and type-along logs that sup
 
 Please ensure that you are looking at the correct **branch** of this repository for the particular version of the course that you are attending. If in doubt, check with the instructor or a helper.
 
-Right now you are looking at the **2026-03-25-ldev-delft** branch, which is for the run of the course on 25 March 2026, at TU Delft.
+Right now you are looking at the **2026-10-27-ldev-rotterdamt** branch, which is for the run of the course on 27 & 29 October 2026, at Erasmus University Rotterdam.
