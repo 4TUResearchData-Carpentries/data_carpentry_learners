@@ -1,6 +1,9 @@
 library(tidyverse)
 library(here)
-install.packages("here")
+# if you you get an error you may need to install the here package like this:
+install.packages("here") 
+#then run this again:
+library(here)
 
 stats::filter() #overrule the default
 
@@ -9,6 +12,9 @@ interviews <- read_csv(
   here("data-carpentry", "data", "SAFI_clean.csv"),
   na = "NULL"
 )
+#your folder structure may be different
+#when you run the here library, it will tell you where it starts from
+
 
 #after setting the working directory to the folder:
 interviews <- read_csv("SAFI_clean.csv")
