@@ -32,7 +32,7 @@ dim(interviews)
 nrow(interviews)
 ncol(interviews)
 
-#content
+##content
 head(interviews)
 tail(interviews)
 
@@ -49,3 +49,4 @@ interviews[[1]] #subset the first column as a vector
 interviews[1] #subset the first column as a variable
 interviews[3, ] #subset row 3 with all variables/columns
 interviews[ , 1] #subset column 1 with all rows
+
