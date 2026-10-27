@@ -16,10 +16,13 @@ interviews <- read_csv(
 #when you run the here library, it will tell you where it starts from
 
 #instead of the here function, you can also set the working directory directly to the right folder
+setwd("insert your folder path") 
+#or in the Files pane, navigate to the cog wheel and select 'set working directory'
 #after setting the working directory to the folder:
 interviews <- read_csv("SAFI_clean.csv")
 
-interviews
+#to check if it went ok:
+interviews 
 
 #inspecting the data frame
 class(interviews)
