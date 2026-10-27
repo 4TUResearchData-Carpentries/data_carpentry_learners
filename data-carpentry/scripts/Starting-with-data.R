@@ -52,7 +52,7 @@ interviews[ , 1] #subset column 1 with all rows
 interviews[1:6, ] #first six rows, same as head()
 interviews[ ,-1] #exclude first column
 
-#Exercise 1
+#Exercise 1a+b
 interviews_100 <- interviews[1:100, ]
 interviews_just100 <- interviews[100, ]
 interviews_last <- interviews[nrow(interviews), ]
@@ -61,7 +61,7 @@ interviews_last
 nrow(interviews)
 tail(interviews)
 
-#Exercise 2 (more info following soon)
+#Exercise 2a+b (more info following soon)
 n_rows <- nrow(interviews)
 interviews_middle <- interviews[median(1:n_rows), ]
 
