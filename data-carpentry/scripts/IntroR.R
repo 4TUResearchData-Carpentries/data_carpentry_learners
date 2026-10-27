@@ -62,3 +62,36 @@ respondent_wall_type[1:3]
 respondent_wall_type[c(3,2)]
 
 # conditional subsetting
+hh_members
+hh_members[c(TRUE, FALSE, TRUE, TRUE)]
+
+hh_members > 5 
+hh_members[hh_members > 5]
+hh_members < 5
+hh_members[hh_members < 5]
+
+hh_members[hh_members < 4 | hh_members > 7 ]
+hh_members[hh_members >= 4 & hh_members <= 7]
+
+possessions[possessions == "laptop" | possessions == "bicycle"]
+
+# %in%
+possessions[possessions %in% c("laptop", "bicycle")]
+
+
+rooms <- c(2,1,1,NA,7)
+rooms
+
+mean(rooms)
+mean(rooms, na.rm = TRUE)
+max(rooms)
+max(rooms, na.rm = TRUE)
+
+rooms
+is.na(rooms)
+
+!is.na(rooms)
+rooms[!is.na(rooms)]
+
+na.omit(rooms)
+rooms_no_na <- 
