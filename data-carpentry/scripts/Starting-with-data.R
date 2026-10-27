@@ -51,3 +51,30 @@ interviews[3, ] #subset row 3 with all variables/columns
 interviews[ , 1] #subset column 1 with all rows
 interviews[1:6, ] #first six rows, same as head()
 interviews[ ,-1] #exclude first column
+
+#Exercise 1
+interviews_100 <- interviews[1:100, ]
+interviews_just100 <- interviews[100, ]
+interviews_last <- interviews[nrow(interviews), ]
+interviews_last <- interviews[131, ]
+interviews_last
+nrow(interviews)
+tail(interviews)
+
+n_rows <- nrow(interviews)
+interviews_middle <- interviews[median(1:n_rows), ]
+
+#Factors
+respondent_floor_type <- factor(c("earth", "cement", "cement", "earth"))
+levels(respondent_floor_type)
+nlevels(respondent_floor_type)
+respondent_floor_type
+respondent_floor_type <- factor(respondent_floor_type,
+                                levels = c("earth", "cement"))
+respondent_floor_type
+
+respondent_floor_type <- fct_recode(respondent_floor_type,
+                                    brick = "cement")
+respondent_floor_type
+
+
