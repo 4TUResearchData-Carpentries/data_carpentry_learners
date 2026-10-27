@@ -94,4 +94,5 @@ is.na(rooms)
 rooms[!is.na(rooms)]
 
 na.omit(rooms)
-rooms_no_na <- 
+rooms_no_na <- na.omit(rooms)
+rooms_no_na
