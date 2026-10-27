@@ -61,6 +61,7 @@ interviews_last
 nrow(interviews)
 tail(interviews)
 
+#Exercise 2 (more info following soon)
 n_rows <- nrow(interviews)
 interviews_middle <- interviews[median(1:n_rows), ]
 
