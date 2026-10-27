@@ -35,8 +35,8 @@ glimpse(interviews)
 
 #subsetting data frames
 interviews[1, 1] #subset just the first row and first column, so 1 cell
-interviews[6, 4]
-interviews[[1]]
-interviews[1] 
-interviews[3, ] #select row 3 with all values
-interviews[ , 1]
+interviews[6, 4] #subset just the 6th row of the 4th column, also 1 cell
+interviews[[1]] #subset the first column as a vector
+interviews[1] #subset the first column as a variable
+interviews[3, ] #subset row 3 with all variables/columns
+interviews[ , 1] #subset column 1 with all rows
