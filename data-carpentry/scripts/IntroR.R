@@ -113,3 +113,5 @@ rooms_above_2 <- rooms_no_na[rooms_no_na > 2]
 rooms[rooms > 2]
 length(rooms_above_2)
 length(rooms[rooms > 2])
+
+length(rooms_no_na[rooms_no_na > 2])
