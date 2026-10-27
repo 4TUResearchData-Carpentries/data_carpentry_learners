@@ -96,3 +96,20 @@ rooms[!is.na(rooms)]
 na.omit(rooms)
 rooms_no_na <- na.omit(rooms)
 rooms_no_na
+
+# Using this vector of rooms, create a new vector with the NAs removed:
+# then calculate the median.
+# Use R to calculate how many elements of rooms are larger than 2.
+
+rooms <- c(1,2,1,NA,3,1,3,2,8,NA,1)
+
+rooms_no_na <- na.omit(rooms)
+rooms_no_na
+
+median(rooms_no_na)
+median(rooms, na.rm = TRUE)
+
+rooms_above_2 <- rooms_no_na[rooms_no_na > 2]
+rooms[rooms > 2]
+length(rooms_above_2)
+length(rooms[rooms > 2])
