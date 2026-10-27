@@ -1,3 +1,4 @@
+# packages
 installed.packages()
 install.packages("tidyverse")
 
@@ -12,41 +13,46 @@ install.packages("tidyverse")
 area_hectares <- 1.0
 area_hectares * 2.47
 
+# Exercise 1
 r_length <- 7
 r_width <- 8
 r_area <- r_length*r_width
 
+# What happens to r_area if I change r_length?
 r_length <- 10
 
-sqrt(9)
-?sqrt
+# Functions! 
+sqrt(9) # Calculate square root
+?sqrt # gives me insights into the documentation
 
+# Round your numbers
 round(3.1415)
 round(3.1415, digits = 2)
-args(round)
+args(round) # shows me arguments the function round takes
 
-# Vector
+# Vector -> sequence of values
 hh_members <- c(3,7,10,6)
 respondent_wall_type <- c("muddaub", "burntbricks", "sunbricks")
-
 respondent_wall_type
 
+# Looking at the length of vectors and their types
 length(respondent_wall_type)
 typeof(hh_members)
 
+# Adding new elements to vectors
 possessions <- c("bicycle", "car", "television")
 possessions <- c(possessions, "mobile phone")
 possessions <- c("laptop", possessions)
 possessions
 
-?c
 
-
+# Exercise 2
 num_char <- c(1,2,3,"a")
 num_logical <- c(1,2L, 3, TRUE)
 char_logical <- c("a", "b", "c", TRUE)
 tricky <- c(1,2,3,"4")
 
+# Exercise 3
 num_logical <- c(1,2,3,TRUE)
 num_logical
 char_logical <- c("a","b","c",TRUE)
@@ -65,53 +71,65 @@ respondent_wall_type[c(3,2)]
 hh_members
 hh_members[c(TRUE, FALSE, TRUE, TRUE)]
 
+# subsetting using greater than > and less than <
 hh_members > 5 
 hh_members[hh_members > 5]
 hh_members < 5
 hh_members[hh_members < 5]
 
+# combining conditions
 hh_members[hh_members < 4 | hh_members > 7 ]
 hh_members[hh_members >= 4 & hh_members <= 7]
 
+# checking for strings
 possessions[possessions == "laptop" | possessions == "bicycle"]
 
-# %in%
+# %in% - Is a specific element (or sequence) in a vector?
 possessions[possessions %in% c("laptop", "bicycle")]
 
-
+# Missing data
 rooms <- c(2,1,1,NA,7)
 rooms
 
+# Calculate mean with NA-values
 mean(rooms)
+# exclude NAs
 mean(rooms, na.rm = TRUE)
+
+# Calculate max with NA-values
 max(rooms)
+# exclude NAs
 max(rooms, na.rm = TRUE)
 
+# Get an overview of all NAs in sequence
 rooms
 is.na(rooms)
 
+# The ! character is also called the NOT operator
+# Get an overview of all NOT-NAs in sequence
 !is.na(rooms)
 rooms[!is.na(rooms)]
 
+# Fast way to get a vector without NAs
 na.omit(rooms)
 rooms_no_na <- na.omit(rooms)
 rooms_no_na
 
+# Exercise 4
 # Using this vector of rooms, create a new vector with the NAs removed:
 # then calculate the median.
 # Use R to calculate how many elements of rooms are larger than 2.
-
 rooms <- c(1,2,1,NA,3,1,3,2,8,NA,1)
 
+# Create vector without NAs
 rooms_no_na <- na.omit(rooms)
 rooms_no_na
 
+# Calculate median without NA
 median(rooms_no_na)
 median(rooms, na.rm = TRUE)
 
+# get all rooms above 2 without na
 rooms_above_2 <- rooms_no_na[rooms_no_na > 2]
-rooms[rooms > 2]
+# get the amount of rooms above 2 without na
 length(rooms_above_2)
-length(rooms[rooms > 2])
-
-length(rooms_no_na[rooms_no_na > 2])
