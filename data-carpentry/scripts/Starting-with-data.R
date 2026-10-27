@@ -10,3 +10,4 @@ interviews <- read_csv(
   na = "NULL"
 )
 
+interviews <- read_csv("SAFI_clean.csv")
