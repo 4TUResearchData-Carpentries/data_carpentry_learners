@@ -15,7 +15,7 @@ interviews <- read_csv(
 #your folder structure may be different
 #when you run the here library, it will tell you where it starts from
 
-
+#instead of the here function, you can also set the working directory directly to the right folder
 #after setting the working directory to the folder:
 interviews <- read_csv("SAFI_clean.csv")
 
