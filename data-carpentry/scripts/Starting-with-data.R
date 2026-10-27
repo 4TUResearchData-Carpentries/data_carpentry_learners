@@ -49,4 +49,5 @@ interviews[[1]] #subset the first column as a vector
 interviews[1] #subset the first column as a variable
 interviews[3, ] #subset row 3 with all variables/columns
 interviews[ , 1] #subset column 1 with all rows
-
+interviews[1:6, ] #first six rows, same as head()
+interviews[ ,-1] #exclude first column
