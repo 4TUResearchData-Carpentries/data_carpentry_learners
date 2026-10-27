@@ -66,9 +66,10 @@ interviews_middle <- interviews[median(1:n_rows), ]
 
 #Factors
 respondent_floor_type <- factor(c("earth", "cement", "cement", "earth"))
-levels(respondent_floor_type)
-nlevels(respondent_floor_type)
-respondent_floor_type
+levels(respondent_floor_type) #what are the levels that R assigned?
+nlevels(respondent_floor_type) #how many levels are there?
+respondent_floor_type #printing the output in the console
+
 respondent_floor_type <- factor(respondent_floor_type,
                                 levels = c("earth", "cement"))
 respondent_floor_type
