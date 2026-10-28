@@ -1,3 +1,6 @@
 venv
 .Rproj.user
 .positai
+.envrc
+shell.nix
+.Rhistory
