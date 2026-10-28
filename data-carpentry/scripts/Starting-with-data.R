@@ -84,7 +84,7 @@ interviews_head <- interviews[-(7:n_rows), ]
 
 
 # 4. Factors
-respondent_floor_type <- factor(c("earth", "cement", "cement", "earth"))
+respondent_floor_type <- factor(c("earth", "cement", "cement", "earth")) #here we made a new object with four values and told R to treat this as a factor
 levels(respondent_floor_type) #what are the levels that R assigned?
 nlevels(respondent_floor_type) #how many levels are there?
 respondent_floor_type #printing the output in the console
