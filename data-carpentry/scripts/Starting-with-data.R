@@ -7,6 +7,7 @@ install.packages("here")
 library(here)
 #if a function does not work below, the relevant library may not be loaded
 #you can load it again to be sure
+#remember to press run for every line of code (or use the short cut control+enter or cmd + enter)
 
 stats::filter() #overrule the default function when there are two with the same name
 
