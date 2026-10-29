@@ -44,6 +44,7 @@ My favourites are:
 ## Results
 
 ```{r}
+#| label: tbl-my-first-table
 #| echo: false
 #| message: false
 interviews %>%
