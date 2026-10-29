@@ -65,4 +65,12 @@ percent_wall_type %>%
     #geom_bar(stat = "identity") # allowing x AND y in geom_bar()
     geom_col() # same thing as above
   
-## Exercise 3  
+## Exercise 3
+
+# Create a bar plot showing the proportion of respondents in each
+# village who are or are not part of an irrigation
+# association (memb_assoc).
+# 
+# Include only respondents who answered that
+# question in the calculations
+# and plot.
