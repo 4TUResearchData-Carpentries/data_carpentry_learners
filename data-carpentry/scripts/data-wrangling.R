@@ -19,3 +19,11 @@ filter( interviews , village=='Ruaca' )
 
 interviews2 <- select( interviews, village, rooms)
 interviews2 <- filter( interviews2 , village == 'Ruaca')
+
+# alternative with pipe 
+
+interviews2 <- interviews %>%
+  select( village,rooms ) %>%
+  filter( village == 'Ruaca' )
+  
+  
