@@ -36,6 +36,7 @@ exercise1 <- interviews %>%
 
 interviews3 <- interviews %>%
   mutate( people_per_room = no_membrs /rooms )
+
   
   
   
