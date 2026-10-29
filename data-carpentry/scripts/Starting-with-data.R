@@ -14,7 +14,7 @@ stats::filter() #overrule the default function when there are two with the same 
 
 # 1. importing data
 interviews <- read_csv(
-  here("data-carpentry", "data", "SAFI_clean.csv"),
+  here("data", "SAFI_clean.csv"),
   na = "NULL"
 )
 #your folder structure may be different
