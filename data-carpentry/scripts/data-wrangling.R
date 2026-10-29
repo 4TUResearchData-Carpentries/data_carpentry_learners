@@ -41,6 +41,9 @@ interviews3 <- interviews %>%
 ## exercise 2
 
 exercise2 <- interviews %>%
-  mutate( total_meals = no_meals * no_membrs)
+  mutate( total_meals = no_meals * no_membrs) %>%
+  select(village,total_meals) %>%
+  filter(total_meals>20)
+
   
   
