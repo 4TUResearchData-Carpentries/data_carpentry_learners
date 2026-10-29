@@ -54,5 +54,13 @@ interviews4 <- interviews %>%
 # sd() for standard deviations
 # min() for extracting minumum 
 # max() for extracting maximum
+# n() for counting the number rows
+
+
+# group by
+
+interviews5 <- interviews %>%
+  group_by( village ) %>%
+  summarise( avg_rooms = mean(rooms) )
   
   
