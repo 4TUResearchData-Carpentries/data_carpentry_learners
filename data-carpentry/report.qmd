@@ -5,3 +5,11 @@ format: html
 ---
 
 # My Awesome Report
+## Section
+### Sub-section
+#### Sub-sub-section
+
+## Introduction
+
+This report uses the tidyverse (meta-)package along with the SAFI dataset.
+
