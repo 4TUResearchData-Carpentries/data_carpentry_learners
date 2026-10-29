@@ -51,6 +51,8 @@ interviews %>%
   summarise(mean_no_membrs = mean(no_membrs))
 ```
 
+The number of members in the first row is `r interviews$no_membrs[1]`
+
 
 
 
