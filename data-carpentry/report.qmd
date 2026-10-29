@@ -12,7 +12,7 @@ format: html
 ## Introduction
 
 This report uses the *tidyverse* (meta-)package along
-with the **SAFI** ***dataset***.
+with the **SAFI** **_dataset_**.
 
 The variables include:
 
