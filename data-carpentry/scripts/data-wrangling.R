@@ -38,5 +38,9 @@ interviews3 <- interviews %>%
   mutate( people_per_room = no_membrs /rooms )
 
   
+## exercise 2
+
+exercise2 <- interviews %>%
+  mutate( total_meals = no_meals * no_membrs)
   
   
