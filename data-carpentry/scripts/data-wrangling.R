@@ -16,3 +16,6 @@ interviews2 <- select( interviews, starts_with('no_') )
 
 # Filtering rows/observations
 filter( interviews , village=='Ruaca' )
+
+interviews2 <- select( interviews, village, rooms)
+interviews2 <- filter( interviews2 , village == 'Ruaca')
