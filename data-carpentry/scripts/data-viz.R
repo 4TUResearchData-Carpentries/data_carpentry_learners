@@ -92,7 +92,7 @@ percent_memb_assoc %>%
 percent_wall_type %>%
   ggplot(aes(x = respondent_wall_type, y = percent)) +
     geom_col(position = "dodge") +
-    facet_wrap(~ village, ncol = 1)
+    facet_wrap(~ village, ncol = 1) # a facet per factor in village
 
 
 
