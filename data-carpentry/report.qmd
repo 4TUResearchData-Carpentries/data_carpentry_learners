@@ -13,6 +13,9 @@ format: html
 
 This report uses the *tidyverse* (meta-)package along
 with the **SAFI** **_dataset_**.
+<!-- comment 
+multiple lines
+-->
 
 The variables include:
 
