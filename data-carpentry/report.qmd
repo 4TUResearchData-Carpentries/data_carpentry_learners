@@ -21,6 +21,7 @@ The variables include:
 
 - village
 - interview_date
+  + Date of the interview
 - no_membrs
 
 
