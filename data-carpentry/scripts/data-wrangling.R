@@ -46,8 +46,10 @@ exercise2 <- interviews %>%
   filter(total_meals>20)
 
 
-## Statical function
+## Statistical function
 
+interviews4 <- interviews %>%
+  summarise( avg_rooms = mean(rooms) )
 
   
   
