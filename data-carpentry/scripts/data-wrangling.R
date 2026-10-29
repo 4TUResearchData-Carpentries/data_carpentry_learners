@@ -26,4 +26,9 @@ interviews2 <- interviews %>%
   select( village,rooms ) %>%
   filter( village == 'Ruaca' )
   
+## Exercise
+
+exercise1 <- interviews %>%
+  filter(memb_assoc=='yes') %>%
+  select(affect_conflicts,liv_count,no_meals)
   
