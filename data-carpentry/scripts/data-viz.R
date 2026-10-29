@@ -47,5 +47,12 @@ interviews_plotting %>%
     colour = "tomato"
   )
   
+# Creating a bar plot
+interviews_plotting %>%
+  ggplot(aes(x = respondent_wall_type)) +
+    geom_bar(aes(fill = village))
 
+
+
+  
   
