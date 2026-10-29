@@ -14,3 +14,5 @@ format: html
 This report uses the tidyverse (meta-)package along
 with the SAFI dataset.
 
+The variables include:
+
