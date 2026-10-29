@@ -19,3 +19,12 @@ multiple lines
 
 The variables include:
 
+- village
+- interview_date
+- no_membrs
+
+
+
+
+
+
