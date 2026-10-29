@@ -71,7 +71,7 @@ interviews_plotting %>%
     theme_minimal()
 ```
 
-Is referebce the plot here (@fig-my-first-plot).
+Is referebce the plot here (@fig-my-first-plot) and the table here (@tbl-my-first-table).
 
 
 
