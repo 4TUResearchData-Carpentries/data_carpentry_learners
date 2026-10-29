@@ -50,9 +50,19 @@ interviews_plotting %>%
 # Creating a bar plot
 interviews_plotting %>%
   ggplot(aes(x = respondent_wall_type)) +
-    geom_bar(aes(fill = village))
+    geom_bar(aes(fill = village), position = "dodge")
 
+# proportions instead of absolute counts
+percent_wall_type <- interviews_plotting %>%
+  filter(respondent_wall_type != "cement") %>%
+  group_by(village) %>%
+  count(village, respondent_wall_type) %>%
+  mutate(percent = (n / sum(n)) * 100)
 
-
+# the plot
+percent_wall_type %>%
+  ggplot(aes(x = village, y = percent, fill = respondent_wall_type)) +
+    #geom_bar(stat = "identity") # allowing x AND y in geom_bar()
+    geom_col() # same thing as above
   
   
