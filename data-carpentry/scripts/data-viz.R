@@ -65,4 +65,4 @@ percent_wall_type %>%
     #geom_bar(stat = "identity") # allowing x AND y in geom_bar()
     geom_col() # same thing as above
   
-  
+## Exercise 3  
