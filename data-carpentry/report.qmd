@@ -64,7 +64,8 @@ interviews_plotting %>%
       x = "Type of wall in home",
       y = "Count (N)",
       title = "Number of wall types in each home"
-    )
+    ) +
+    theme_minimal()
 ```
 
 
