@@ -61,6 +61,6 @@ interviews4 <- interviews %>%
 
 interviews5 <- interviews %>%
   group_by( village ) %>%
-  summarise( avg_rooms = mean(rooms) )
+  summarise( avg_rooms = mean(rooms) , sd_room = sd(rooms))
   
   
