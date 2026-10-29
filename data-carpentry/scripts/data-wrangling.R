@@ -51,5 +51,8 @@ exercise2 <- interviews %>%
 interviews4 <- interviews %>%
   summarise( avg_rooms = mean(rooms) )
 
+# sd() for standard deviations
+# min() for extracting minumum 
+# max() for extracting maximum
   
   
