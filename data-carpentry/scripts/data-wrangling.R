@@ -76,6 +76,8 @@ interviews7 <- interviews %>%
 exercise3 <- interviews %>%
   count(no_meals)
 
+## plotting data ##
 
+interviews_plotting <- 
   
   
