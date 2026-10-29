@@ -63,7 +63,8 @@ interviews_plotting %>%
     labs(
       x = "Type of wall in home",
       y = "Count (N)",
-      title = "Number of wall types in each home"
+      title = "Number of wall types in each home",
+      fill = "Village name"
     ) +
     theme_minimal()
 ```
