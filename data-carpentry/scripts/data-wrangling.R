@@ -62,5 +62,10 @@ interviews4 <- interviews %>%
 interviews5 <- interviews %>%
   group_by( village ) %>%
   summarise( avg_rooms = mean(rooms) , sd_room = sd(rooms))
+
+# count the number of observations
+interviews6 <- interviews %>%
+  group_by(village) %>%
+  summarise( no_interviews = n() )
   
   
