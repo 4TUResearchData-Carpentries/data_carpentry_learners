@@ -45,5 +45,9 @@ exercise2 <- interviews %>%
   select(village,total_meals) %>%
   filter(total_meals>20)
 
+
+## Statical function
+
+
   
   
