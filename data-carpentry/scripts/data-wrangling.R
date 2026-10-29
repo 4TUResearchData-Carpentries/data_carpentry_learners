@@ -72,6 +72,7 @@ interviews6 <- interviews %>%
 interviews7 <- interviews %>%
   count(village)
 
+# Exercise 3
 exercise3 <- interviews %>%
   count(no_meals)
   
