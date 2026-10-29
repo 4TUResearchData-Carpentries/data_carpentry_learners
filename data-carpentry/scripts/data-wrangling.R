@@ -78,6 +78,7 @@ exercise3 <- interviews %>%
 
 ## plotting data ##
 
-interviews_plotting <- 
+interviews_plotting <- interviews %>%
+  
   
   
