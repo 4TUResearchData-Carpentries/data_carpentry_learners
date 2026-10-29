@@ -14,5 +14,38 @@ interviews_plotting %>%
   geom_jitter(
     alpha = 0.5,
     width = 0.2,
-    height = 0.2
+    height = 0.2,
+    colour = "#000"
     )
+
+interviews_plotting %>%
+  ggplot(aes(x = no_membrs, y = number_items, colour = village)) +
+  geom_jitter(
+    alpha = 0.5,
+    width = 0.2,
+    height = 0.2
+  ) +
+  scale_colour_viridis_d() # palette for better colours 
+
+# Creating a box plot
+interviews_plotting %>%
+  ggplot(aes(x = respondent_wall_type, y = rooms)) +
+    geom_boxplot() +
+    geom_jitter(
+      width = 0.2,
+      alpha = 0.5,
+      colour = "tomato"
+    )
+  
+## Exercise 2  
+interviews_plotting %>%
+  ggplot(aes(x = respondent_wall_type, y = rooms)) +
+  geom_violin() +
+  geom_jitter(
+    width = 0.2,
+    alpha = 0.5,
+    colour = "tomato"
+  )
+  
+
+  
