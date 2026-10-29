@@ -74,3 +74,24 @@ percent_wall_type %>%
 # Include only respondents who answered that
 # question in the calculations
 # and plot.
+
+percent_memb_assoc <- interviews_plotting %>%
+  filter(!is.na(memb_assoc)) %>%
+  count(village, memb_assoc) %>%
+  group_by(village) %>%
+  mutate(percent = (n / sum(n)) * 100) %>%
+  ungroup()
+
+percent_memb_assoc %>%
+  ggplot(aes(x = village, y = percent, fill = memb_assoc)) +
+    geom_col(position = "dodge")
+
+
+# Facetting
+
+
+
+
+
+
+
