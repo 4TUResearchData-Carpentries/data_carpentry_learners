@@ -56,6 +56,7 @@ interviews %>%
 The number of members in the first row is `r interviews$no_membrs[1]`
 
 ```{r}
+#| label: fig-my-first-plot
 #| echo: false
 interviews_plotting %>%
   ggplot(aes(x = respondent_wall_type, fill = village)) +
@@ -69,8 +70,7 @@ interviews_plotting %>%
     theme_minimal()
 ```
 
-
-
+Is referebce the plot here (@fig-my-first-plot).
 
 
 
