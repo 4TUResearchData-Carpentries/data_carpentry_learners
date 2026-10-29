@@ -71,5 +71,8 @@ interviews6 <- interviews %>%
 # you can also work with count
 interviews7 <- interviews %>%
   count(village)
+
+exercise3 <- interviews %>%
+  count(no_meals)
   
   
