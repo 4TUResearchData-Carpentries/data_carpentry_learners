@@ -69,6 +69,7 @@ interviews_plotting %>%
       fill = "Village name"
     ) +
     theme_minimal()
+# this is a comment
 ```
 
 Is referebce the plot here (@fig-my-first-plot) and the table here (@tbl-my-first-table).
