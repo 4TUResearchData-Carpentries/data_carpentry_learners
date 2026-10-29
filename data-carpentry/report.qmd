@@ -55,6 +55,11 @@ interviews %>%
 
 The number of members in the first row is `r interviews$no_membrs[1]`
 
+```{r}
+interviews_plotting %>%
+  ggplot(aes(x = respondent_wall_type)) +
+    geom_bar()
+```
 
 
 
