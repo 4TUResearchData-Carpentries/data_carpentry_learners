@@ -75,5 +75,7 @@ interviews7 <- interviews %>%
 # Exercise 3
 exercise3 <- interviews %>%
   count(no_meals)
+
+
   
   
